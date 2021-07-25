@@ -1,0 +1,47 @@
+ 
+html,body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+
+
+
+.container{
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.card{
+    
+    width: 250px;
+    height: auto;
+    display: inline-block;
+    padding:10px;
+    background: royalblue;
+    font-size: 16px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#btn-joke{
+    background-color: transparent;
+    margin-top: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.joke-heading{
+    margin-bottom: 10px;
+}
+#heading{
+    color: pink;
+    font-size: 18px;
+    
+}
